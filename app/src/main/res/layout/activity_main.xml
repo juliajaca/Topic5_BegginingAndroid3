@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <Button
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        android:onClick="verCheckBox"/>
+
+    <Button
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LinearLayout -RadioButton"
+        android:onClick="verRadioButton"/>
+
+    <Button
+        android:id="@+id/weights"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LinearLayout -Weights"
+        android:onClick="verWeights"/>
+
+    <Button
+        android:id="@+id/form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RelativeLayout -Form"
+        android:onClick="verForm"/>
+
+    <Button
+        android:id="@+id/overlap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RelativeLayout -Overlap"
+        android:onClick="verOverlap"/>
+
+    <Button
+        android:id="@+id/form_table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TableLayout -Form"
+        android:onClick="verFormTable"/>
+
+    <Button
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TableLayout -ScrollView"
+        android:onClick="verScrollView"/>
+
+    <Button
+        android:id="@+id/field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Field"
+        android:onClick="verField"/>
+
+    <Button
+        android:id="@+id/imagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Imagen"
+        android:onClick="verImagen"/>
+
+
+
+</LinearLayout>
